@@ -12,19 +12,11 @@ use-java() {
         23)
             local NEW_JAVA_HOME="/usr/lib/jvm/temurin-23-jdk-amd64"
             ;;
-        24)
-            local NEW_JAVA_HOME="/usr/lib/jvm/temurin-24-jdk-amd64"
-            ;;
-        25)
-            local NEW_JAVA_HOME="/usr/lib/jvm/temurin-25-jdk-amd64"
-            ;;
         *)
             echo "Usage: use-java {21|23|24|25}"
             echo "Available Java versions:"
             echo "  21 - Eclipse Temurin JDK 21 (LTS)"
             echo "  23 - Eclipse Temurin JDK 23"
-            echo "  24 - Eclipse Temurin JDK 24"
-            echo "  25 - Eclipse Temurin JDK 25"
             return 1
             ;;
     esac
