@@ -138,7 +138,7 @@ This container inherits common development tools from the Slough generic base im
 
 For the best performance and compatibility on Windows, ensure you're using Docker Desktop with the WSL 2 backend:
 
-1. Install [WSL 2](https://docs.microsoft.com/windows/wsl/install)
+1. Install [WSL 2](https://learn.microsoft.com/windows/wsl/install)
 2. Install [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
 3. Enable WSL 2 in Docker Desktop settings: Settings → General → "Use the WSL 2 based engine"
 
@@ -222,7 +222,7 @@ java -cp bin com.example.Main
 
 - Move your project to the WSL 2 file system for better performance
 - Ensure Docker Desktop has sufficient resources allocated (Settings → Resources)
-- Consider excluding large directories (like `node_modules`, `target`, or `build`) from antivirus scanning
+- Consider excluding large directories (like `target` or `build`) from antivirus scanning
 
 ## Contributing
 
